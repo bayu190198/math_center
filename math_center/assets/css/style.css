@@ -1,0 +1,254 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+}
+
+a {
+    color:  #28166e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    width: 1000px; /* fix lebar cuma 1000px */
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    background-color: #28166e;
+    color: white;
+}
+
+#header a {
+    color: white;
+}
+
+
+.header-brand {
+    float: left;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.header-menu {
+    float: right;
+    text-align: right;
+    padding: 8px;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.header-menu:hover {
+    background-color:  #17055d;
+}
+
+.header-menu .avatar {
+    width: 20px;
+}
+
+#navmenu {
+    position: relative;
+    width: 300px;
+    min-height: 350px;
+    background-color: black;
+    float: left;
+    color: white;
+}
+
+#navmenu a {
+    color: white;
+}
+
+.nav-menu {
+    padding: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navmenu ul li {
+    padding: 14px 16px;
+    display: block;
+    display: block;
+}
+
+#navmenu ul li:hover {
+    background-color: #666;
+}
+
+#navmenu ul li a:hover{
+}
+
+#content {
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+
+#content .title {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #ececec;
+}
+
+p {
+    padding:10px;
+}
+
+.content-box {
+    margin: 5px 10px;
+    border: solid 1px #28166e;
+    border-radius: 10px;
+}
+
+.content-box .box-title {
+    padding: 10px;
+    background-color: #28166e;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.content-box .box-title a{
+    color: white;
+}
+
+.content-box .box-title button {
+    border: solid 1px white;
+    color: black;
+    background-color: white;
+    padding: 8px;
+}
+
+.content-box .box-title button:hover {
+    color: white;
+    background-color: black;
+}
+
+.content-box .box-body {
+    padding: 10px;
+}
+
+.card {
+    width: 250px;
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin: 10px 20px;
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+#footer {
+    clear:both;
+    width: 1000px;
+    padding: 10px 0px;
+    border-top: dotted 2px #28166e;
+    position: relative;
+}
+
+.footer-copy {
+    padding: 10px;
+}
+
+#login-container {
+    width: 100%;
+}
+
+#login {
+    width: 300px;
+    margin: 150px auto;
+    border: solid 2px #ececec;
+    padding: 20px;
+    background-color: white;
+}
+
+.login-header {
+    text-align: center;
+}
+
+.login-form {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.login-form input[type=text], input[type=password]{
+    border: groove 1px #28166e;
+    background-color: #e2e2e2;
+    padding: 10px;
+    width: 250px;
+    margin: 5px 0px;
+
+}
+
+.login-form .btn {
+    border: groove 1px #28166e;
+    background-color: #28166e;
+    padding: 10px;
+    width: 272px;
+    margin: 5px 0px;
+    color: white;
+}
+
+.form .alert {
+    width: 272px;
+}
+
+.btn {
+    border: groove 1px #28166e;
+    background-color: #28166e;
+    padding: 10px;
+    margin: 5px 0px;
+    color: white;
+}
+
+.btn:hover {
+    border: groove 1px #17055d;
+    background-color: #17055d;
+}
+
+.btn-small {
+    padding: 4px;
+    margin-right: 4px 2px;
+    font-size: 8pt;
+}
+
+.alert {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 8px;
+}
+
+.info {
+    border: solid 1px #000008;
+    background-color: #000008;
+    color: white;
+}
+
+.success {
+    border: solid 1px #000800;
+    background-color: #000800;
+    color: white;
+}
+
+.error {
+    border: solid 1px #080000;
+    background-color: #080000;
+    color: white;
+}
+
+.clear {
+    clear:both;
+}
